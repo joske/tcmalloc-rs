@@ -4,7 +4,7 @@ use std::path::PathBuf;
 use std::process::Command;
 
 static TCMALLOC_REPO: &str = "https://github.com/gperftools/gperftools";
-static TCMALLOC_TAG: &str = "gperftools-2.7";
+static TCMALLOC_TAG: &str = "gperftools-2.9.1";
 
 // Platforms that _someone_ says works
 static TESTED: &[&str] = &[
